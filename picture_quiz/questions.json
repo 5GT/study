@@ -1,0 +1,72 @@
+[
+  {
+    "id": "sunrise",
+    "title": "이 그림은 어떤 순간을 담고 있을까요?",
+    "image": "assets/sunrise.svg",
+    "hint": "하늘이 오렌지색으로 물드는 시간",
+    "choices": [
+      {"id": "A", "text": "일출"},
+      {"id": "B", "text": "한낮의 햇살"},
+      {"id": "C", "text": "자정"},
+      {"id": "D", "text": "폭설"}
+    ],
+    "answer": "A",
+    "explanation": "따뜻한 색의 하늘과 낮게 떠오르는 태양이 새벽 일출을 보여줍니다."
+  },
+  {
+    "id": "campfire",
+    "title": "어디에 놀러 온 모습일까요?",
+    "image": "assets/campfire.svg",
+    "hint": "별빛 아래 천막과 모닥불",
+    "choices": [
+      {"id": "A", "text": "해변 소풍"},
+      {"id": "B", "text": "산속 캠핑"},
+      {"id": "C", "text": "도심 피크닉"},
+      {"id": "D", "text": "공항 대합실"}
+    ],
+    "answer": "B",
+    "explanation": "텐트, 소나무, 모닥불이 있는 풍경은 산속 캠핑 장면입니다."
+  },
+  {
+    "id": "train",
+    "title": "이 그림 속 교통수단은 무엇인가요?",
+    "image": "assets/train.svg",
+    "hint": "길게 이어진 레일을 달립니다",
+    "choices": [
+      {"id": "A", "text": "지하철"},
+      {"id": "B", "text": "자전거"},
+      {"id": "C", "text": "증기기관차"},
+      {"id": "D", "text": "비행기"}
+    ],
+    "answer": "C",
+    "explanation": "굵은 굴뚝과 연기가 나오는 고전 증기기관차 모습입니다."
+  },
+  {
+    "id": "rainy",
+    "title": "지금 어떤 날씨일까요?",
+    "image": "assets/rainy.svg",
+    "hint": "우산을 준비하면 좋겠어요",
+    "choices": [
+      {"id": "A", "text": "쨍쨍한 해"},
+      {"id": "B", "text": "여름 폭우"},
+      {"id": "C", "text": "안개 낀 밤"},
+      {"id": "D", "text": "눈보라"}
+    ],
+    "answer": "B",
+    "explanation": "두꺼운 구름과 빗방울, 젖은 길이 여름 소나기를 떠올리게 합니다."
+  },
+  {
+    "id": "cake",
+    "title": "그림 속 디저트는 무엇일까요?",
+    "image": "assets/cake.svg",
+    "hint": "촛불이 켜진 하얀 조각",
+    "choices": [
+      {"id": "A", "text": "에클레어"},
+      {"id": "B", "text": "초코칩 쿠키"},
+      {"id": "C", "text": "생크림 케이크"},
+      {"id": "D", "text": "티라미수"}
+    ],
+    "answer": "C",
+    "explanation": "층이 보이는 케이크와 촛불이 생크림 케이크 한 조각을 표현합니다."
+  }
+]

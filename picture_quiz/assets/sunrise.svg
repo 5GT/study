@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 180" role="img" aria-label="일출 풍경">
+  <defs>
+    <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#ffb347" />
+      <stop offset="100%" stop-color="#f6e6b4" />
+    </linearGradient>
+  </defs>
+  <rect width="240" height="180" fill="url(#sky)" />
+  <rect y="110" width="240" height="70" fill="#f7f1d5" />
+  <circle cx="120" cy="108" r="28" fill="#ffd369" stroke="#f7a440" stroke-width="4" />
+  <polygon points="0,120 60,90 120,125 180,95 240,120 240,180 0,180" fill="#6ab187" />
+  <polygon points="0,130 80,110 140,140 210,115 240,140 240,180 0,180" fill="#4f8a6e" opacity="0.8" />
+  <line x1="120" y1="60" x2="120" y2="35" stroke="#ffe3a1" stroke-width="4" stroke-linecap="round" />
+  <line x1="150" y1="70" x2="170" y2="55" stroke="#ffe3a1" stroke-width="3" stroke-linecap="round" />
+  <line x1="90" y1="70" x2="70" y2="55" stroke="#ffe3a1" stroke-width="3" stroke-linecap="round" />
+</svg>
