@@ -35,4 +35,19 @@ python todo.py --storage /tmp/my_todos.json add "책 읽기"
 # GUI 모드
 python gui.py
 python gui.py --storage /tmp/my_todos.json
+
+## 그림 퀴즈 웹사이트
+
+`picture_quiz/` 폴더에 있는 정적 페이지를 통해 그림 맞히기 퀴즈를 즐길 수 있습니다.
+
+```bash
+# 개발 서버 실행
+python -m http.server 8000 --directory picture_quiz
+
+# 브라우저에서 접속
+open http://localhost:8000  # macOS
+xdg-open http://localhost:8000  # Linux
+```
+
+문제는 `picture_quiz/questions.json` 파일에 정의되어 있으며, 이미지와 선택지도 함께 수정할 수 있습니다.
 ```
