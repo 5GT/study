@@ -31,4 +31,8 @@ python todo.py clear
 
 # 저장 위치 지정
 python todo.py --storage /tmp/my_todos.json add "책 읽기"
+
+# GUI 모드
+python gui.py
+python gui.py --storage /tmp/my_todos.json
 ```
