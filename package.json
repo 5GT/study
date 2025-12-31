@@ -1,0 +1,13 @@
+{
+  "name": "phaser-react-ws-monorepo",
+  "private": true,
+  "version": "0.1.0",
+  "packageManager": "pnpm@9.0.0",
+  "scripts": {
+    "dev:client": "pnpm --filter client dev",
+    "dev:server": "pnpm --filter server dev",
+    "dev": "pnpm -C apps/client dev & pnpm -C apps/server dev",
+    "build": "pnpm -r build",
+    "start": "pnpm --filter server start"
+  }
+}
