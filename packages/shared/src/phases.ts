@@ -1,0 +1,10 @@
+export enum LiarGamePhase {
+  LOBBY = 'LOBBY',
+  ASSIGN = 'ASSIGN',
+  CLUE_INPUT = 'CLUE_INPUT',
+  DISCUSSION = 'DISCUSSION',
+  VOTING = 'VOTING',
+  DEFENSE = 'DEFENSE',
+  KILL_DECISION = 'KILL_DECISION',
+  END = 'END'
+}
